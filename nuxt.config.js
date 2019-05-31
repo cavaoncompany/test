@@ -1,4 +1,5 @@
 const pkg = require('./package')
+const env = require('dotenv').config()
 
 module.exports = {
   mode: 'universal',
@@ -22,7 +23,7 @@ module.exports = {
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
-
+  env: env.parsed,
   /*
   ** Global CSS
   */
@@ -34,6 +35,9 @@ module.exports = {
   */
   plugins: [
   ],
+  serverMiddleware: [
+    '~/api/nodemailer'
+  ],
 
   /*
   ** Nuxt.js modules
@@ -43,6 +47,7 @@ module.exports = {
     '@nuxtjs/axios',
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
+    '@nuxtjs/recaptcha',
     '@nuxtjs/pwa'
   ],
   /*
