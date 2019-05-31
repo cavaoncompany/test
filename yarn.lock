@@ -1244,6 +1244,11 @@
     "@nuxtjs/meta" "^2.6.0"
     "@nuxtjs/workbox" "^2.6.0"
 
+"@nuxtjs/recaptcha@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/recaptcha/-/recaptcha-0.4.1.tgz#2c7b0f8492972ac973d9c6a0adb06071b5cc10c8"
+  integrity sha512-GnThNpcB1o+lQLTJJcMUfXQ+aW47UvnNAXKRzOToO/4eoffbTYNNQRCocHdzAcSB6URZ0ej93SpR4Tu+jl2/fw==
+
 "@nuxtjs/workbox@^2.6.0":
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/workbox/-/workbox-2.6.0.tgz#eb057e7cbddc8f50bc181a5af9795cc93bd774d8"

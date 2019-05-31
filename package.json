@@ -16,6 +16,7 @@
     "@babel/core": "^7.4.5",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^2.6.0",
+    "@nuxtjs/recaptcha": "^0.4.1",
     "babel-loader": "^8.0.6",
     "bootstrap-vue": "^2.0.0-rc.21",
     "cross-env": "^5.2.0",
