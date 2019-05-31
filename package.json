@@ -25,7 +25,8 @@
     "express": "^4.16.4",
     "netlify-lambda": "^1.4.13",
     "nodemailer": "^6.2.1",
-    "nuxt": "^2.4.0"
+    "nuxt": "^2.4.0",
+    "serverless-http": "^2.0.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
